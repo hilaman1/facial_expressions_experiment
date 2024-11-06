@@ -12,9 +12,6 @@ If you publish work using this script the most relevant publication is:
 """
 import sys
 import site
-print("Python executable:", sys.executable)
-print("Python path:", sys.path)
-print("Site packages:", site.getsitepackages())
 
 # --- Import packages ---
 from psychopy import locale_setup
